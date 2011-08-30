@@ -1,0 +1,106 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Tue Aug 30 14:38:16 2011
+;; Desktop file format version 206
+;; Emacs version 23.3.1
+
+;; Global section:
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring nil)
+(setq regexp-search-ring '("cursor" "version" "save" "C-x C-s" "java" "javadoc" "developer" "<" "need" "xl" "ios" "x" "$" "safa" "111" ";"))
+(setq register-alist '((49 . "{% syntax javascript %}\n{% endsyntax %}") (114 file . "/Users/pollux/.emacs.d/starter-kit-registers.el") (98 file . "/Users/pollux/.emacs.d/starter-kit-bindings.el") (105 file . "/Users/pollux/.emacs.d/init.el")))
+(setq file-name-history '("/Users/pollux/.emacs.d/vendor/hl-tags.el" "/Users/pollux/Dropbox/Logica/merck/word-tpl/poi-trunk/maven/poi-ooxml-schemas-3.8-beta5.pom" "/Users/pollux/Dropbox/Logica/merck/word-tpl/poi-trunk/maven/poi-ooxml-3.8-beta5.pom" "/Users/pollux/Dropbox/Logica/merck/word-tpl/poi-trunk/maven/poi-3.8-beta5.pom" "/Users/pollux/Dropbox/Logica/merck/word-tpl/poi-trunk/maven/poi-scratchpad-3.8-beta5.pom" "~/projects/poxd/content/blog/**uidatepicker-landscape" "~/Dropbox/backups/vault-key" "/Users/pollux/projects/ios/TimesProject/xls-transform/push.command" "/Users/pollux/projects/ios/TimesProject/xls-transform/xls.command" "/Users/pollux/projects/ios/TimesProject/setup.py" "~/projects/ios/TimesProject/times-xls.py" "/Users/pollux/Desktop/drawing.svg" "/Users/pollux/projects/snail/index.html" "~/projects/snail" "~/projects/ios/zenprise/README" "/Users/pollux/Desktop/drawing.svg" "~/Desktop/test.svg" "/Users/pollux/projects/pf/tabfokus/border-bug/test.html" "~/projects/pf/border-bug/test.html" "~/.emacs.d.bak/hyde.el" "~/pet_projects/poxd/content/blog/les-particularites-de-javascript.html" "~/pet_projects/poxd/content/blog/" "~/pet_projects/poxd/content/blog" "~/pet_projects/poxd/content/blog/" "~/pet_projects/poxd/content/critique-de-livre-le-jour-des-triffides.html" "~/Dropbox/Writer/Le jour des Triffides.txt" "/Users/pollux/pet_projects/poxd/content/blog/critique-de-livre-alexandre-le-feu-du-ciel.html" "~/.emacs.d.bak/hyde.el" "~/.emacs.d" "/Users/pollux/pet_projects/ios/TimesProject/install-page/times-1.0.2.plist"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 206
+  "/Users/pollux/.emacs.d/pollux.el"
+  "pollux.el"
+  'emacs-lisp-mode
+  '(auto-fill-mode paredit-mode eldoc-mode hi-lock-mode)
+  612
+  '(589 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (column-number-mode . t)))
+
+(desktop-create-buffer 206
+  nil
+  ".emacs.d"
+  'dired-mode
+  nil
+  1275
+  '(nil nil)
+  t
+  '("/Users/pollux/.emacs.d/")
+  nil)
+
+(desktop-create-buffer 206
+  "/Users/pollux/Dropbox/Logica/merck/word-tpl/pom.xml"
+  "pom.xml"
+  'nxml-mode
+  nil
+  478
+  '(553 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-dos)))
+
+(desktop-create-buffer 206
+  "/Users/pollux/projects/ios/CoconutKit/README.markdown"
+  "README.markdown"
+  'markdown-mode
+  '(auto-fill-mode)
+  6525
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/Users/pollux/projects/ios/TimesProject/install-page/times-1.2.plist"
+  "times-1.2.plist"
+  'nxml-mode
+  nil
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/Users/pollux/projects/ios/TimesProject/install-page/makefile"
+  "makefile"
+  'makefile-bsdmake-mode
+  nil
+  96
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/pollux/projects/snail/index.html"
+  "index.html"
+  'html-mode
+  '(auto-fill-mode)
+  438
+  '(2244 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/Users/pollux/projects/ios/zenprise/README"
+  "README"
+  'fundamental-mode
+  nil
+  618
+  '(321 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix)))
+
