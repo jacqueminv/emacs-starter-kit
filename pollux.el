@@ -18,9 +18,17 @@
 	(maximize-frame)))
 (global-set-key [f11] 'maximize)
 
+
+;;styling
 (color-theme-twilight)
-
-(server-start)
-
 (global-hl-line-mode 1)
 
+
+(setq ispell-program-name "/opt/local/bin/ispell")
+
+;;moz-reload-browser
+(load-file "~/.emacs.d/vendor/moz-reload-on-save.el")
+
+;;zen-coding
+(load-file "~/.emacs.d/vendor/zencoding-mode.el")
+(add-hook 'sgml-mode-hook 'zencoding-mode)
